@@ -7,6 +7,10 @@ app.get("/" , (req, res) => {
 })
 
 
+app.get("/branch1" , (req, res) => {
+    console.log("elo");
+})
+
 app.get("/title",()=>{
     console.log("This is a Title Page")
 })
