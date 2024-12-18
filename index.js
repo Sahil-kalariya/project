@@ -6,6 +6,10 @@ app.get("/" , (req, res) => {
     console.log("hello");
 })
 
+
+app.get("/title",()=>{
+    console.log("This is a Title Page")
+)}
 app.get("/home" , () => {
     console.log("this is home");
 })
