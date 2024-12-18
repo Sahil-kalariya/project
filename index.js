@@ -6,7 +6,9 @@ app.get("/" , (req, res) => {
     console.log("hello");
 })
 
-
+app.get("/sahil-conflict" , () => {
+    console.log("shail-conflict");
+})
 app.get("/branch1" , (req, res) => {
     console.log("elo");
 })
