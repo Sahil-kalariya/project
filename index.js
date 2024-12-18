@@ -6,6 +6,10 @@ app.get("/" , (req, res) => {
     console.log("hello");
 })
 
+app.get("/home" , () => {
+    console.log("this is home");
+})
+
 app.listen(PORT , () =>{
        console.log(`server listening on port ${PORT}`);
 })
