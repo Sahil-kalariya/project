@@ -9,7 +9,11 @@ app.get("/" , (req, res) => {
 
 app.get("/title",()=>{
     console.log("This is a Title Page")
-)}
+})
+
+app.get("/title1",()=>{
+    console.log("This is a Title1 Page")
+})
 app.get("/home" , () => {
     console.log("this is home");
 })
